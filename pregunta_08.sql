@@ -41,4 +41,4 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --
-SELECT avg(c21) FROM tbl2 GROUP BY FORMAT(c23,"YYYY") fecha;
+SELECT avg(c21) FROM tbl2 GROUP BY DATEPART(YEAR,c23);
