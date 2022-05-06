@@ -38,4 +38,4 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --
-SELECT * FROM tbl2 WHERE c23=min(c23);
+SELECT * FROM tbl2 WHERE c23 is min(c23);
