@@ -44,4 +44,4 @@
 --
 <<<
 --
-SELECT * FROM tbl0 WHERE c02>=300;
+SELECT * FROM tbl0 WHERE c02=(SELECT c02 FROM tbl0 WHERE c02>=300);
