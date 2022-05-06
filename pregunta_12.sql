@@ -42,5 +42,5 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --
-SELECT MAX(c12) OVER (PARTITION BY k0), MIN(c12) OVER (PARTITION BY k0) FROM tbl1;
+SELECT k0, MAX(c12), MIN(c12) FROM tbl1 GROUP BY k0;
 
