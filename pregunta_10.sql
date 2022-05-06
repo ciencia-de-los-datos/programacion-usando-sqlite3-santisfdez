@@ -44,4 +44,4 @@
 --
 <<<
 --
-SELECT * FROM tbl0 WHERE c02>="300";
+SELECT * FROM tbl0 WHERE c02>=300 ORDER BY k0;
