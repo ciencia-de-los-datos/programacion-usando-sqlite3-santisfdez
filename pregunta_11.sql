@@ -38,3 +38,4 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
+SELECT c14 AS YEAR, COUNT(*) AS CANT FROM tbl1 WHERE LEFT(c14,4)="2018";
