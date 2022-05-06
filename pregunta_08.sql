@@ -41,4 +41,4 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --
-SELECT avg(c21) FROM tbl2 GROUP BY LEFT(c21,4);
+SELECT avg(c21), stfrtime("%Y",c23) FROM tbl2 GROUP BY stfrtime("%Y",c23);
