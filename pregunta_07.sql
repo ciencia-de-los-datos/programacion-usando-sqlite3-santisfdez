@@ -43,3 +43,4 @@
 -- 
 --  >>> Escriba su codigo a partir de este punto <<<
 --
+SELECT * FROM tbl1 WHERE NOT (k0="A" OR k0="B" OR c13=200 OR c13=900) GROUP BY c14;
